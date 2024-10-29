@@ -5,7 +5,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--background-color-1);
+    background: var(--background-color-1);
+    background: var(--background-gradient);
+
+    position: sticky;
+    top: 0;
 }
 
 .navbar__link--container{
@@ -15,6 +19,8 @@ nav{
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
+    
+    padding: 1rem;
 }
 
 .navbar__link{
@@ -30,7 +36,18 @@ nav{
     align-items: center;
     justify-content: flex-end;
 }
+
+.navbar__link--empty-container{
+    width: 100%;
+}
 .navbar__link--icon{ 
     height: var(--ikon-height-desk);
     width: var(--ikon-width-desk);
+}
+
+@media screen and (max-width: 350px) {
+    .navbar__link--container{
+        flex-grow: 1;
+    }
+    
 }

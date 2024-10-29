@@ -1,0 +1,14 @@
+footer{
+    height: 10vh;
+    width: 100%;
+
+    background-color: var(--background-color-1);
+    background: var(--background-gradient);
+
+    font-family: roboto;
+    color: var(--font-color-1);
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+}
