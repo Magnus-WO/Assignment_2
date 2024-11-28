@@ -1,40 +1,50 @@
-:root{
-    --background-color-1: rgb(18,36,224);
-    --background-gradient: radial-gradient(circle, rgba(18,36,224,1) 0%, rgba(8,17,98,1) 100%);
-    --background-color-2: rgb(0, 145, 255);
-    --background-color-3: white;
+:root {
+  /* Colors */
+  --background-color-1: rgb(18, 36, 224);
+  --background-gradient: radial-gradient(
+    circle,
+    rgba(18, 36, 224, 1) 0%,
+    rgba(8, 17, 98, 1) 100%
+  );
+  --background-color-2: rgb(0, 145, 255);
+  --background-color-3: white;
 
-    --border-radius: 5px;
-    --font-color-1: white;
-    --font-color-2: black;
+  --font-color-1: white;
+  --font-color-2: black;
 
-    --card-height-desk: 22rem;
-    --card-width-desk: 12rem;
+  --border-radius: 5px;
+  /* Font size */
+  --font-size-small: 0.8rem;
+  --font-size-base: 1rem;
 
-    --ikon-height-desk: 8rem;
-    --ikon-width-desk: 8rem;
+  /* Heights */
+  --card-height-desk: 22rem;
+  --card-width-desk: 12rem;
 
-    --image-height-desk: 15rem;
-    --image-width-desk: 12rem;
-/* Width 542px */
+  --ikon-height-desk: 8rem;
+  --ikon-width-desk: 8rem;
 
-    --card-height-width-542px: 18rem;
-    --card-width-width-542px: 10rem;
+  --image-height-desk: 15rem;
+  --image-width-desk: 12rem;
 
-    --image-height-width-542px: 11rem;
-    --image-width-width-542px: 8.3rem;
+  /* Width 542px */
 
-/* Width 479 */
+  --card-height-width-542px: 18rem;
+  --card-width-width-542px: 10rem;
 
---card-width-width-497px: 8.3rem;
+  --image-height-width-542px: 11rem;
+  --image-width-width-542px: 8.3rem;
 
---image-width-width-479px: 8rem;
+  /* Width 479 */
 
-/* width 425px */
---card-width-width-425px: 6.3rem;
---card-height-width-425px: 8rem;
+  --card-width-width-497px: 8.3rem;
 
---image-width-width-425px: 6rem;
---image-height-width-425px: 6rem;
+  --image-width-width-479px: 8rem;
+
+  /* width 425px */
+  --card-width-width-425px: 6.3rem;
+  --card-height-width-425px: 8rem;
+
+  --image-width-width-425px: 6rem;
+  --image-height-width-425px: 6rem;
 }
-
