@@ -7,3 +7,6 @@ All the cards as well as the page itself are responsive down to small screens
 
 ##License
 Only for use in education settings
+
+##link to deployment
+https://assignment-2-5kfaiv7pn-magnus-wos-projects.vercel.app/
