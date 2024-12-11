@@ -10,3 +10,6 @@ Only for use in education settings
 
 ##link to deployment
 https://assignment-2-5kfaiv7pn-magnus-wos-projects.vercel.app/
+
+##Link to github repo:
+https://github.com/Magnus-WO/Assignment_2
